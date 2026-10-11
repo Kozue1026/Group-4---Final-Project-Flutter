@@ -1,6 +1,6 @@
-# flutter_application_1
+# Group-4---Final-Project-Flutter
 
-A new Flutter project.
+A new Flutter project (flutter_application_1).
 
 ## Getting Started
 
