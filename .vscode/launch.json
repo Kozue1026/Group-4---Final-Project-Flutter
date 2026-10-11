@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "EventHub (emulator)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
+      "console": "debugConsole",
+      "args": ["-d", "emulator-5554"],
+      "preLaunchTask": "flutter pub get"
+    },
+    {
+      "name": "EventHub (pick device)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
+      "console": "debugConsole",
+      "preLaunchTask": "flutter pub get"
+    }
+  ]
+}
